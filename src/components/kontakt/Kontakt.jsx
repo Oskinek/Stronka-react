@@ -1,16 +1,8 @@
 import React from 'react'
 import './kontakt_styles.scss'
 import Header from '../header/Header.jsx'
-import Map from '../map/Map.jsx'
 import Footer from '../footer/Footer.jsx'
 import Form from '../form/Form.jsx'
-const location = {
-  address: 'Porucznika "ostrego" 8 Radom',
-  center: {
-    lat: 51.35721757502279,
-    lng: 21.086450140981864,
-  }
-}
 const Kontakt = () => {
 
   return (
@@ -27,7 +19,6 @@ const Kontakt = () => {
             <div><span className="description">E-mail:</span> biolife.natorski@gmail.com</div>
           </div>
           <div className='map-description'>Tu jesteśmy!</div>
-          <Map location={location} zoomLevel={17} />
         </div>
           <Form/>
       </div>
