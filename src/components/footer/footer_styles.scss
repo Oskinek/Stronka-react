@@ -1,0 +1,17 @@
+.footer {
+  display: flex;
+  width: 100%;
+  position: static;
+  bottom: 0;
+  justify-content: flex-end;
+  height: 100px;
+  z-index: 999;
+  background-color: var(--menu-background);
+  margin-top: 50px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer img {
+  height: 80px;
+  width: auto;
+}

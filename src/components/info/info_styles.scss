@@ -1,0 +1,31 @@
+.info {
+  display: block;
+  height: 100%;
+}
+.foto-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  img {
+    height: 500px;
+    width: auto;
+  }
+}
+.about-info-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 50px;
+  font-size: 1.6rem;
+  color: var(--menu-hover-font-color);
+}
+.title-name {
+  font-size: 2.5rem;
+}
+.about-data-container {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  flex-flow: column;
+}

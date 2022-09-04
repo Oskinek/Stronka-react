@@ -1,0 +1,32 @@
+.sidebar {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: 0;
+  left: -20%;
+  height: 100%;
+  width: 20%;
+  background-color: var(--menu-background);
+  z-index: 999;
+  transition: left 500ms;
+}
+.navigation-buttons {
+  display: flex;
+  margin-top: 20px;
+  opacity: 0;
+  flex-direction: column;
+  text-align: center;
+  transition: opacity 100ms ease-in-out;
+}
+.button {
+  text-decoration: none;
+  color: var(--menu-font-color);
+  font-size: 2.3rem;
+  padding: 20px;
+  transition: scale 300ms;
+  &:hover {
+    scale: 1.2;
+    color: var(--menu-hover-font-color);
+  }
+
+}

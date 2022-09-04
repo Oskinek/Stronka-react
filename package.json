@@ -1,20 +1,26 @@
 {
   "name": "stronka_react",
   "version": "0.1.0",
-  "homepage": "https://Oskinek.github.io/Stronka-react",
   "private": true,
   "dependencies": {
+    "@googlemaps/react-wrapper": "^1.1.27",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
+    "google-map-react": "^2.1.10",
+    "google-maps-react": "^2.0.6",
+    "node-sass": "^7.0.1",
     "react": "^17.0.2",
+    "react-background-slider": "^2.0.0",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
+    "typewriter": "^7.4.1",
+    "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -39,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@iconify/react": "^3.1.4",
     "gh-pages": "^3.2.3"
   }
 }
