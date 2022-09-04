@@ -4,7 +4,6 @@ import './homepage.scss'
 import Sidebar from '../../sidebar/fullscreen/Sidebar.jsx'
 import Typewriter from 'typewriter-effect'
 import Slideshow from '../../slideshow/Slideshow.jsx'
-import BackgroundSlider from 'react-background-slider'
 
 function HomePage (props) {
   console.log(props.location)
@@ -18,7 +17,6 @@ function HomePage (props) {
   }
   return (
     <div className="homepage">
-      <BackgroundSlider images={images} duration={5} transition={2} />
       <input type="checkbox" id="nav-toggle" className="nav-toggle" checked={isChecked} onChange={()=>null}/>
       <span>
         <div className='curtain' onClick={audioAndCheckState}></div>
