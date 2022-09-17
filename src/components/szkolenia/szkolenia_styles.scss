@@ -1,0 +1,30 @@
+.tab {
+  margin-top: 50px;
+  margin-left: 80px;
+  color: var(--menu-hover-font-color);
+}
+.levels-box {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.level {
+  font-size: 2rem;
+}
+.szkolenie {
+  display: flex;
+  height: 70px;
+  width: 70%;
+  max-width: 1500px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  transition: background-color 350ms;
+  &:hover {
+    background-color: var(--menu-background);
+  }
+}

@@ -1,12 +1,20 @@
-import React from 'react'
+import React from 'react';
+import { Fade } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
 
+const SlideShow = (props) => {
 
-function Slideshow() {
   return (
-    <div className="slideshow">
+    <div>
+        <Fade>
+            {props.images.map((image,index) => (
+              <div className='each-slide' key={index}>
+                <img src={image} alt='slide'/>
+              </div>
+            ))}
+        </Fade>
+    </div>
+  );
+};
 
-  </div>
-  )
-}
-
-export default Slideshow
+export default SlideShow;

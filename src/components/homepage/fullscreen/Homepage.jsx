@@ -3,10 +3,8 @@ import {GiPistolGun} from 'react-icons/gi'
 import './homepage.scss'
 import Sidebar from '../../sidebar/fullscreen/Sidebar.jsx'
 import Typewriter from 'typewriter-effect'
-import Slideshow from '../../slideshow/Slideshow.jsx'
 
 function HomePage (props) {
-  console.log(props.location)
   const images = ['./slide1.jpg','./slide2.jpg','./slide3.jpg','./slide4.jpg','./slide5.jpg','./slide6.jpg']
   let audio = new Audio("/pistolecik.mp3")
   const [isChecked, setIsChecked] = useState(false)
@@ -29,7 +27,6 @@ function HomePage (props) {
         </div>
         <div className='pistol' onClick={audioAndCheckState}><GiPistolGun/></div>
         <Sidebar/>
-        <Slideshow/>
       </span>
   </div>
   )

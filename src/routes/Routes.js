@@ -6,6 +6,7 @@ import Info from '../components/info/Info.jsx'
 import Szkolenia from '../components/szkolenia/Szkolenia.jsx'
 import Wspolpraca from '../components/wspolpraca/Wspolpraca.jsx'
 import Galeria from '../components/galeria/Galeria.jsx'
+import SlideShow from '../components/slideshow/Slideshow.jsx'
 export default (
   <BrowserRouter>
     <Routes>
@@ -15,6 +16,7 @@ export default (
       <Route path='/szkolenia' element={<Szkolenia/>} />
       <Route path='/wspolpraca' element={<Wspolpraca/>} />
       <Route path='/galeria' element={<Galeria/>} />
+      <Route path='/slideshow' element={<SlideShow/>}/>
     </Routes>
   </BrowserRouter>
 )
