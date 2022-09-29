@@ -2,10 +2,14 @@
   margin-top: 50px;
   margin-left: 80px;
   color: var(--menu-hover-font-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 .levels-box {
   display: flex;
-  width: 100%;
+  width: 50%;
   justify-content: space-around;
   flex-direction: column;
 }
@@ -13,13 +17,15 @@
   font-size: 2rem;
 }
 .szkolenie {
+  color: var(--menu-hover-font-color);
+  text-decoration: none;
   display: flex;
   height: 70px;
-  width: 70%;
+  width: 100%;
   max-width: 1500px;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-left: 10px;
   padding-right: 10px;
   padding-left: 10px;
