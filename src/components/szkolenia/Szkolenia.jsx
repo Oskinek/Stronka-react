@@ -79,7 +79,7 @@ function Szkolenia() {
             </div>
           </span>
         </div>
-        <SzkolenieCard buttonid={buttonid}/>
+        <SzkolenieCard buttonid={buttonid} className="card"/>
       </div>
       <Footer/>
       <Header/>
